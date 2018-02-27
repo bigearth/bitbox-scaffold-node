@@ -1,0 +1,23 @@
+{
+  "name": "bitbox-scaffold-node",
+  "version": "0.0.1",
+  "description": "Basic command line node app w/ BITBOX web bindings",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigearth/bitbox-scaffold-node.git"
+  },
+  "author": "Carlos Gabriel Cardona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bigearth/bitbox-scaffold-node/issues"
+  },
+  "homepage": "https://github.com/bigearth/bitbox-scaffold-node#readme",
+  "devDependencies": {
+    "bitbox-cli": "^0.1.11"
+  }
+}
