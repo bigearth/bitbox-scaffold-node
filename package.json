@@ -1,7 +1,7 @@
 {
   "name": "bitbox-scaffold-node",
   "version": "0.0.1",
-  "description": "Basic command line node app w/ BITBOX web bindings",
+  "description": "Basic command line node app w/ BITBOX bindings",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
