@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/bigearth/bitbox-scaffold-node#readme",
   "devDependencies": {
-    "bitbox-cli": "0.3.0"
+    "bitbox-cli": "0.3.1"
   }
 }
