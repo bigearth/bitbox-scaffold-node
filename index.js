@@ -7,7 +7,7 @@ let BITBOX = new BITBOXCli({
   password: ''
 });
 
-BITBOX.getinfo()
+BITBOX.Control.getInfo()
 .then((result) => {
   console.log(result);
 }, (err) => { console.log(err);
