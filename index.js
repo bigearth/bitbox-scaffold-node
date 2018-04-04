@@ -61,7 +61,7 @@ let originalAmount = 3678031;
 let sendAmount = originalAmount - byteCount;
 
 // add receive address and send amount
-transactionBuilder.addOutput('qpq57nsrhje3725fzxfjdqzdngep3cfk2sfmy8yexj', sendAmount);
+transactionBuilder.addOutput('bitcoincash:qpuax2tarq33f86wccwlx8ge7tad2wgvqgjqlwshpw', sendAmount);
 
 // sign tx
 transactionBuilder.sign(0, originalAmount);
