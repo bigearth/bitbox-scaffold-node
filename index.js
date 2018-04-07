@@ -26,13 +26,14 @@ console.log("BIP44 $BCH Wallet");
 console.log(`256 bit ${lang} BIP39 Mnemonic: `, mnemonic);
 
 // mnemonic to BIP32 root seed encoded as hex
-let rootSeedHex = BITBOX.Mnemonic.mnemonicToSeedHex(mnemonic)
+let rootSeed = BITBOX.Mnemonic.mnemonicToSeed(mnemonic)
 
 // root seed to BIP32 master HD Node
-let masterHDNode = BITBOX.HDNode.fromSeedHex(rootSeedHex)
+let masterHDNode = BITBOX.HDNode.fromSeed(rootSeed)
 
 // derive BIP 44 external receive address
-let childNode = masterHDNode.derivePath("m/44'/145'/0'/0/0")
+let childNode = BITBOX.HDNode.derivePath(masterHDNode, "m/44'/145'/0'/0/0")
+
 console.log(`BIP44 Account: "m/44'/145'/0'"`);
 for(let i = 0; i < 10; i++) {
   let childNode = masterHDNode.derivePath(`m/44'/145'/0'/0/${i}`);
