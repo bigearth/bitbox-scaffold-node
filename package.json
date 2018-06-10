@@ -1,6 +1,6 @@
 {
   "name": "bitbox-scaffold-node",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "Basic command line node app w/ BITBOX bindings",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/bigearth/bitbox-scaffold-node#readme",
   "devDependencies": {
-    "bitbox-cli": "0.9.7"
+    "bitbox-cli": "1.0.0"
   }
 }
